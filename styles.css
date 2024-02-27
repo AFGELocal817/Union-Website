@@ -1,0 +1,153 @@
+/* styles.css */
+
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Logo styles */
+.logo-container {
+    text-align: center; /* Center the contents horizontally */
+}
+
+.logo {
+    width: 200px;
+    margin-top: 25px;
+}
+
+/* Header styles */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+}
+
+/* Navigation styles - the title bar that navigates you*/
+.navigation {
+    background-color: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(5px);
+	background: linear-gradient(to right, #485a6e, #cccccc);
+    padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+/* Navigation links */
+.navigation a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+}
+
+/* What happens when you hover over a link on the title bar */
+.navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(5px);
+}
+
+/* Main content styles */
+p {
+    margin-top: 20px;
+}
+
+/* Link styles */
+a {
+	color: red;
+	text-decoration: underline;
+}
+
+a: hover {
+	text-decoration: underline;
+}
+
+/* Home image section styles */
+.image-section {
+	background-image: url('./Resources/images/Fmc.JPG');
+	background-size: cover;
+	background-position: center;
+	padding: 200px;
+}
+
+/* Legislative image Section styles */
+.leg-section {
+	background-image: url('./Resources/images/capital.jpeg');
+	background-size: cover;
+	background-position: center;
+	padding: 200px;
+}
+
+/* Officer list styles */
+.list-officers {
+	text-align: center;
+	column-count: 2;
+	column-gap: 10px;
+}
+
+/* Newsletter styles */
+.list-newsletters {
+	column-count: 12;
+	column-gap: 10px;
+}
+
+/* Center body text */
+.body-center {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+/* Center body bold */
+.body-bold {
+	text-align: center;
+	font-weight: Bold;
+	font-size: 28px;
+}
+
+/* MOU list styles */
+.list-mous {
+	padding: 10px;
+	text-align: center;
+}
+
+/* link list padding */
+.list-mous li {
+	padding: 10px 20px;
+}
+
+/* Containers wrapped together */
+.container-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* Containers that wrap other items into pretty surroundings */
+.containers {
+	width: calc(75% - 20px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 20px;
+}
+
+.container img {
+	max-width: 100%;
+	border-radius: 10px;
+}
